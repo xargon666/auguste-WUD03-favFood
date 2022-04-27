@@ -4,22 +4,29 @@
     object-fit: cover;
 }
 
-.btn-desktop{
-    display:inline-block;
+.btn-1{
+    width:15vw;
 }
-.btn-mob{
-    display:none;
+.btn-2{
+    width:10vw;
+}
+
+@media only screen and (max-width: 1024px) {
+    .btn-1 {
+        width:17vw;
+    }
+    .btn-2 {
+        width:15vw;
+    }
+    }
+
+@media only screen and (max-width: 768px) {
+    .btn-1 {
+        width:20vw;
+    }
 }
 
 @media only screen and (max-width: 480px) {
-
-    .btn-mob{
-        display:inline-block;
-    }
-
-    .btn-desktop{
-        display:none
-    }
 
     .card-img-top{
         width: 100%;
@@ -27,26 +34,13 @@
         object-fit: cover;
     }
 
-    .btn-mob{
-        pointer-events:none;
-        color:yellow;
+    .btn {
+        width:100%;
+        margin-bottom:5vw;
     }
-
     
-    /* #home-btn1{
-        pointer-events:none;
-        color:yellow;
-    } */
-
-
-    /* #home-btn2{
-        pointer-events:none;
-        color:yellow;
-    } */
-
     .card{
         justify-content:center;
-        /* align-items:center; */
     }
   }
 
