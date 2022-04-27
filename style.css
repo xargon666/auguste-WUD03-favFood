@@ -11,6 +11,10 @@
     width:10vw;
 }
 
+.hamburger{
+    display:none;
+}
+
 @media only screen and (max-width: 1024px) {
     .btn-1 {
         width:17vw;
@@ -28,6 +32,12 @@
 
 @media only screen and (max-width: 480px) {
 
+    .hamburger{
+        display:block;
+    }
+    .navbar{
+        display:none;
+    }
     .card-img-top{
         width: 100%;
         height: 15vh;
