@@ -11,69 +11,101 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<!-- favicon -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <!-- favicon -->
     <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon" />
     <!-- stylesheets -->
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="normalize.css" />
+    <!-- title -->
     <title>Fav Food | Home</title>
   </head>
   <body>
-    <header class="p-3 py-2 bg-dark text-white shadow-lg mb-4">
-
-        <!-- <div class="d-flex flex-wrap align-items-center justify-content-between">  -->
-
-
-<!-- hamburger -->
-        <nav class="hamburger navbar navbar-expand-lg navbar-dark bg-dark p-1">
-          <div class="container-fluid">
-            <a class="navbar-brand"
+    <header class="p-3 py-2 bg-dark shadow-lg mb-4">
+      <!-- <div class="d-flex flex-wrap align-items-center justify-content-between">  -->
+      <!-- hamburger -->
+      <nav
+        class="hamburger navbar navbar-expand-lg navbar-dark bg-dark p-1 text-white"
+      >
+        <div class="container-fluid">
+          <a
+            class="navbar-brand"
             href="./index.html"
             target="_self"
-            rel="noopener noreferrer">
-            <img src="./img/C logo.png" alt="logo" id ="img-logo" style="width: 2.5em" />
+            rel="noopener noreferrer"
+          >
+            <img
+              src="./img/C logo.png"
+              alt="logo"
+              id="img-logo"
+              style="width: 2.5em"
+            />
           </a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-            <svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="white" class="bi bi-list" viewBox="0 0 16 16">
-              <path fill-rule="evenodd" d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"/>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="48"
+              height="48"
+              fill="white"
+              class="bi bi-list"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+              />
             </svg>
           </button>
-
-          <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+          <!---->
+          <div
+            class="collapse navbar-collapse flex-row-reverse"
+            id="navbarSupportedContent"
+          >
             <ul class="navbar-nav mr-auto align-items-center">
-              <li class="nav-item active px-2">
-                                <!-- home link -->
-                                <a
-                                class="nav-link text-secondary"
-                                href="./index.html"
-                                target="_self"
-                                rel="noopener noreferrer"
-                              >
-                                <svg
-                                  xmlns="http://www.w3.org/2000/svg"
-                                  width="24"
-                                  height="24"
-                                  fill="currentColor"
-                                  class="bi d-block mx-auto mb-1 bi-house-fill"
-                                  viewBox="0 0 16 16"
-                                >
-                                  <path
-                                    fill-rule="evenodd"
-                                    d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
-                                  />
-                                  <path
-                                    fill-rule="evenodd"
-                                    d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"
-                                  />
-                                </svg>
-                                home
-                              </a>
+              <li class="nav-item px-2">
+                <!-- home link -->
+                <a
+                  class="nav-link active"
+                  href="./index.html"
+                  target="_self"
+                  rel="noopener noreferrer"
+                >
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="currentColor"
+                    class="bi d-block mx-auto mb-1 bi-house-fill"
+                    viewBox="0 0 16 16"
+                  >
+                    <path
+                      fill-rule="evenodd"
+                      d="m8 3.293 6 6V13.5a1.5 1.5 0 0 1-1.5 1.5h-9A1.5 1.5 0 0 1 2 13.5V9.293l6-6zm5-.793V6l-2-2V2.5a.5.5 0 0 1 .5-.5h1a.5.5 0 0 1 .5.5z"
+                    />
+                    <path
+                      fill-rule="evenodd"
+                      d="M7.293 1.5a1 1 0 0 1 1.414 0l6.647 6.646a.5.5 0 0 1-.708.708L8 2.207 1.354 8.854a.5.5 0 1 1-.708-.708L7.293 1.5z"
+                    />
+                  </svg>
+                  home
+                </a>
               </li>
               <li class="nav-item px-2">
                 <!-- recipe -->
                 <a
-                  class="nav-link text-white"
+                  class="nav-link"
                   href="./recipe.html"
                   target="_self"
                   rel="noopener noreferrer"
@@ -96,9 +128,10 @@
                   >recipe</a
                 >
               </li>
-              <li class="nav-item px-2">  <!-- places -->
+              <li class="nav-item px-2">
+                <!-- places -->
                 <a
-                  class="nav-link text-white"
+                  class="nav-link"
                   href="./places.html"
                   target="_self"
                   rel="noopener noreferrer"
@@ -128,12 +161,12 @@
             </ul>
           </div>
         </div>
-        </nav>
+      </nav>
 
-<!-- hamburger -->
+      <!-- hamburger -->
 
-<!-- old nav  -->
-          <!-- <nav class="navbar-icons navbar navbar-expand-lg">
+      <!-- old nav  -->
+      <!-- <nav class="navbar-icons navbar navbar-expand-lg">
             <ul
               class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small"
             >
@@ -217,8 +250,6 @@
               </li>
             </ul>
           </nav> -->
-  
-
     </header>
     <div class="py-1 my-1 text-center border-bottom"></div>
     <!-- spacer with border -->
